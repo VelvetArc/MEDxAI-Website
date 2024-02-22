@@ -8,7 +8,7 @@ document.addEventListener("mousemove",function(dets){
     blur.style.left = dets.x - 150 + "px"
     blur.style.top = dets.y - 150 +"px"
 })
-
+ 
 gsap.to(".page",{
     backgroundColor:"#000",
     scrollTrigger:{
