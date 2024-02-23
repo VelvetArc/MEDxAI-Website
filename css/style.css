@@ -221,6 +221,7 @@ html {
 .home h1 {
       font-size: 8em;
       margin: 0;
+      margin-bottom: 10px;
       font-family: 'Montserrat', sans-serif;
 
 }
@@ -712,6 +713,10 @@ img {
       &>p{
            opacity: 0;
       }
+}
+
+.card-text-contents p{
+      text-align: left;
 }
 
 .event-card:hover{
