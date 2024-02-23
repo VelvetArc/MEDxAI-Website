@@ -643,6 +643,8 @@ img {
       background-color: #020013;
       display: flex;
       justify-content: center;
+      padding-bottom: 170px;
+      padding-top: 80px;
 }
 
 
@@ -657,7 +659,8 @@ img {
       align-items: center;
       max-width: 80%;
       text-align: center;
-      height: 100vh;
+      height: 80vh;
+      
 }
 
 .event-title {
@@ -693,6 +696,7 @@ img {
       border: white 2px solid;
       flex: 1;
       height: 320px;
+      width: 400px;
       transition: all 0.5s ease-in-out;
 }
 
@@ -719,6 +723,10 @@ img {
       text-align: left;
 }
 
+.card-text-contents h3{
+      color: #a74444!important;
+}
+
 .event-card:hover{
       .card-text-contents{
             &>p{
@@ -732,11 +740,11 @@ img {
 }
 
 .event-card:nth-child(1):hover{
-      height: 520px;
+      height: 570px;
 }     
 
 .event-card:nth-child(2):hover{
-      height: 450px;
+      height: 460px;
 }
 .event-card:nth-child(3):hover{
       height: 500px;
@@ -1013,8 +1021,9 @@ img {
       width: 550px;
       max-width: 100%;
       padding: 0 10px;
-      margin-left: 20px;
-      text-align: center;
+      margin-left: 40px;
+      text-align: justify;
+
 }
 
 .about-text strong {
