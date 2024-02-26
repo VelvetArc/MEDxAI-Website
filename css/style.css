@@ -605,6 +605,10 @@ img {
 
 }
 
+.credit{
+      font-size: x-small;
+      margin-bottom: 20px;
+}
 .email-add:hover {
       text-decoration: underline;
 }
