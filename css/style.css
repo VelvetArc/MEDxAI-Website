@@ -558,12 +558,12 @@ img {
     
     .team_member{
       cursor: pointer;
-      background: #f1cece;
+      background: #ddc1c1;
       border-top-left-radius: 2000px;
       border-top-right-radius: 2000px;
       border-bottom-left-radius: 200px;
       border-bottom-right-radius: 200px;
-      box-shadow: 0px 6px 8px #ffcece; 
+      box-shadow: 0px 6px 8px #e9d5d5; 
       width: 250px;
       margin: 12px;
       padding: 20px 10px;
@@ -572,7 +572,7 @@ img {
 
     .team_member:hover {
       transform: scale(1.05);
-      filter: brightness(107%); /* Scale the box on hover */
+      filter: brightness(110%); /* Scale the box on hover */
   }
     
     .our_team .team_member .member_img{
@@ -727,7 +727,7 @@ img {
 }
 
 .credit{
-      font-size: x-small;
+      font-size: 12px;
       margin-bottom: 20px;
 }
 .email-add:hover {
@@ -1260,3 +1260,15 @@ button:hover a {
             margin: 0;
       }
 }
+
+
+@media (max-width:450px){
+
+      .our_team{
+            width: auto;
+      }
+     
+      .team-member{
+      }
+}
+
