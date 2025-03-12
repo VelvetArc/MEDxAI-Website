@@ -232,7 +232,9 @@ body{
       color: rgb(143, 0, 0);
 
 }
-
+.subheading{
+      color: rgb(253, 253, 207);
+}
 .subtitle{
       text-align: center;
       font-size: 2rem;
@@ -733,7 +735,10 @@ img {
 .email-add:hover {
       text-decoration: underline;
 }
-
+.button1{
+      margin-left: 10%;
+      background-color: rgb(167, 167, 239)!important;
+}
 .socials {
       list-style: none;
       display: flex;
@@ -770,6 +775,7 @@ img {
       justify-content: center;
       padding-bottom: 170px;
       padding-top: 80px;
+      height: 1020px;
 }
 
 
@@ -836,11 +842,17 @@ img {
       
 
 }
+.allign1{
+      text-align: left!important;
+}
 .card-text-contents{
       margin: 20px;
       align-items: center;
       &>p{
            opacity: 0;
+      }
+      &>ul{
+            opacity: 0;
       }
 }
 
@@ -857,6 +869,9 @@ img {
             &>p{
                   opacity: 1;
             }
+            &>ul{
+                  opacity: 1;
+            }
       }
       .card-text{
             position: static;
@@ -869,7 +884,7 @@ img {
 }     
 
 .event-card:nth-child(2):hover{
-      height: 460px;
+      height: 720px;
 }
 .event-card:nth-child(3):hover{
       height: 500px;

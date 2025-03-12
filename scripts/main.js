@@ -64,5 +64,19 @@ const closeNav = () => {
 };
 closeBtn.addEventListener('click', closeNav);
 
+document.addEventListener("DOMContentLoaded", function () {
+      const secondEventCard = document.querySelector(".event-card:nth-child(2)");
+      const eventsSection = document.querySelector(".events");
+
+      secondEventCard.addEventListener("mouseenter", function () {
+            eventsSection.style.height = "auto"; // Expands the section
+      });
+
+      secondEventCard.addEventListener("mouseleave", function () {
+            eventsSection.style.height = ""; // Resets back
+      });
+});
+
+
 
 
