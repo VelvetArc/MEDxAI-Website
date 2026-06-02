@@ -129,29 +129,14 @@
                         <div class="event-card">
                               <img src="../images/stock.jpg" alt="">
                               <div class="card-text">
-                                    <div class="card-text-contents allign1">
+                                    <div class="card-text-contents">
                                           <h3>Our Services</h3>
                                           <br>
                                           <ul>
-                                                <li>Surgical Simulators</li>
-                                                <li>Diagnostic Kits</li>
-                                                <li>Health Software Plugins</li>
-                                                <li>Therapeutic Devices</li>
-                                                <li>Preventive Oncology</li>
                                                 <li class="heading">Cervilens: <span class="subheading"> AI powered
                                                             digital colposcope</span></li>
-                                                <li class="heading">CerviScan: <span class="subheading">Point of Care
-                                                            diagnosis</span></li>
                                                 <li class="heading">Drug Discovery: <span class="subheading">Quantum
                                                             PharmX Molecular Intelligence Suit</span></li>
-                                                <li class="heading">Medical Robotics</li>
-                                                <li class="heading">Personalised Medicine: <span
-                                                            class="subheading">Micro Suspect Scan - AI Assistant
-                                                            Antibiotic Administration</span></li>
-                                                <li class="heading">Vital Monitoring System: <span
-                                                            class="subheading">Vital Sync - 5G Enabled Patient Vitals
-                                                            Memory System</span></li>
-                                                <li class="heading">Clinical Training Stimulation</li>
                                           </ul>
                                     </div>
                               </div>
@@ -182,6 +167,73 @@
 
       <!--============================END OF THE EVENTS=============================-->
 
+      <section class="services" id="services" style="padding: 6rem 0; background-color: #020013; color: white;">
+            <div class="max-width">
+                  <h1 style="font-size: 3rem; margin-bottom: 3rem; text-align: center; font-family: 'Montserrat', sans-serif;">Services we offer</h1>
+                  
+                  <div class="service-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 3rem; width: 100%; max-width: 1400px; margin: 0 auto;">
+                        
+                        <div class="service-box" style="display: flex; flex-direction: column; height: 100%; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 20px; padding: 2.5rem; backdrop-filter: blur(10px); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                              <div class="media-container" style="position: relative; width: 100%; aspect-ratio: 16/9; margin-bottom: 2rem; border-radius: 15px; overflow: hidden; background: #000; cursor: zoom-in; box-shadow: 0 5px 15px rgba(0,0,0,0.3);" onclick="openModal('../images/cervilens.png')">
+                                    <img src="../images/cervilens.png" alt="Cervilens Flyer" style="width: 100%; height: 100%; object-fit: cover;">
+                                    <div style="position: absolute; top: 15px; right: 15px; background: rgba(0,0,0,0.6); padding: 10px; border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; transition: background 0.2s;" onmouseover="this.style.background='rgba(0,0,0,0.9)'" onmouseout="this.style.background='rgba(0,0,0,0.6)'">
+                                          <i class="fas fa-search-plus"></i>
+                                    </div>
+                              </div>
+                              
+                              <h2 style="font-size: 2.2rem; color: #f7c95b; margin-bottom: 1rem; font-family: 'Montserrat', sans-serif;">Cervilens™</h2>
+                              <h4 style="font-size: 1.2rem; color: #a51d1d; margin-bottom: 1.5rem; font-weight: 500;">AI-Powered Cervical Cancer Screening System</h4>
+                              <p style="font-size: 1.1rem; line-height: 1.7; color: #ddd; flex-grow: 1;">
+                                    A dynamically adaptive cervical lesion risk assessment system designed to empower hospitals and transform women's healthcare. 
+                                    By combining AI-assisted diagnostic colposcopy and cytology with a HIPAA-compliant multi-modal fusion engine, Cervilens™ delivers smarter screening, better outcomes, and lower costs.
+                              </p>
+                        </div>
+
+                        <div class="service-box" style="display: flex; flex-direction: column; height: 100%; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 20px; padding: 2.5rem; backdrop-filter: blur(10px); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                              <div class="media-container" style="position: relative; width: 100%; aspect-ratio: 16/9; margin-bottom: 2rem; border-radius: 15px; overflow: hidden; background: #000; cursor: zoom-in; box-shadow: 0 5px 15px rgba(0,0,0,0.3);" onclick="openModal('../images/quantum-pharmx.jpg')">
+                                    <img src="../images/quantum-pharmx.jpg" alt="Quantum PharmX Flyer" style="width: 100%; height: 100%; object-fit: cover;">
+                                    <div style="position: absolute; top: 15px; right: 15px; background: rgba(0,0,0,0.6); padding: 10px; border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; transition: background 0.2s;" onmouseover="this.style.background='rgba(0,0,0,0.9)'" onmouseout="this.style.background='rgba(0,0,0,0.6)'">
+                                          <i class="fas fa-search-plus"></i>
+                                    </div>
+                              </div>
+
+                              <a href="https://quantum-pharmx-jjea.onrender.com/" style="text-decoration: none;">
+                                    <h2 style="font-size: 2.2rem; color: #f7c95b; margin-bottom: 1rem; font-family: 'Montserrat', sans-serif;">
+                                          Quantum PharmX™
+                                    </h2>
+                                    </a>
+                              <h4 style="font-size: 1.2rem; color: #a51d1d; margin-bottom: 1.5rem; font-weight: 500;">Molecular Intelligence Suite</h4>
+                              <p style="font-size: 1.1rem; line-height: 1.7; color: #ddd; flex-grow: 1;">
+                                    Revolutionizing drug discovery through quantum intelligence. Our suite leverages data-driven decisions to accelerate therapeutic research, ensuring better efficacy, safety, and success in lead optimization.
+                              </p>
+                              
+                              <div class="video-wrapper" style="position: relative; width: 100%; aspect-ratio: 16/9; overflow: hidden; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-top: 1.5rem;">
+                                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" src="https://drive.google.com/file/d/1VaZBZGNlN98Ezij-Ndrp01UeAJEcyxuG/preview" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                              </div>
+                        </div>
+
+                  </div>
+            </div>
+      </section>
+
+      <!-- Lightbox Modal -->
+      <div id="imageModal" style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.9); justify-content: center; align-items: center; cursor: zoom-out;" onclick="closeModal()">
+            <span style="position: absolute; top: 20px; right: 40px; color: #f1f1f1; font-size: 40px; font-weight: bold; cursor: pointer;">&times;</span>
+            <img id="modalImage" src="" style="max-width: 95%; max-height: 95%; border-radius: 10px; box-shadow: 0 5px 25px rgba(0,0,0,0.5); object-fit: contain;">
+      </div>
+
+      <script>
+            function openModal(imgSrc) {
+                  document.getElementById("modalImage").src = imgSrc;
+                  document.getElementById("imageModal").style.display = "flex";
+                  document.body.style.overflow = "hidden"; // Prevent scrolling
+            }
+            function closeModal() {
+                  document.getElementById("imageModal").style.display = "none";
+                  document.body.style.overflow = "auto";
+            }
+      </script>
+
       <section class="container testimonials_container mySwiper" id="team">
 
 
@@ -191,7 +243,7 @@
                   <div class="our_team">
                         <div class="team_member">
                               <div class="member_img">
-                                    <img class="team_photo" src="../images/p1.png" alt="our_team">
+                                    <img class="team_photo" src="../images/dr_sheena_cropped.png" alt="our_team">
                                     <div class="social_media">
                                           <!-- <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
                               <div class="twitter item"><i class="fab fa-twitter"></i></div>
@@ -200,13 +252,12 @@
                               </div>
                               <h3>Dr.Sheena Christabel Pravin</h3>
                               <span class="desig">CEO</span>
-                              <p>
-                                    Dr. Sheena Christabel Pravin secured a Ph.D. from Anna
-                                    University in the field of Disordered Speech Processing in 2021. She is
-                                    currently into building ML/deep learning models for
-                                    classification/Regression Analysis for medical imaging, Real-time Data
-                                    Acquisition and Signal Analytics for prognoses, building and configuring
-                                    AI-assisted diagnostic tools and AI interventions in Fetal Therapy.
+                              <p style="text-align: justify; padding: 10px;">
+                                    Dr. Sheena Christabel Pravin is a researcher and innovator specializing in Artificial Intelligence, Machine Learning, Deep Learning, Medical Imaging, Biomedical Signal Processing, and Digital Healthcare Technologies.
+                                    <br><br>
+                                    Her work focuses on developing AI-driven solutions for cancer pre-screening, medical diagnostics, predictive healthcare analytics, and AI-assisted diagnostic systems. She has expertise in building machine learning and deep learning models for biomedical data analysis, medical imaging, and clinical decision support.
+                                    <br><br>
+                                    Dr. Sheena is also engaged in in silico drug discovery, leveraging molecular docking, virtual screening, binding affinity prediction, ADMET profiling, and AI-driven molecular intelligence to accelerate therapeutic research. Her interests span precision medicine, oncology, maternal and fetal healthcare, explainable AI, computational biology, and healthcare innovation, with a focus on translating advanced technologies into scalable solutions that improve patient outcomes and healthcare accessibility.
                               </p>
                         </div>
 
