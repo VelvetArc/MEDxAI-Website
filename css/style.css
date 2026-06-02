@@ -895,7 +895,7 @@ img {
       height: 460px;
 }
 .event-card:nth-child(3):hover{
-      height: 450px;
+      height: 500px;
 }
 .card-text .date {
       font-size: 13px;
